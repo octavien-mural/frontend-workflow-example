@@ -11,7 +11,7 @@ export const Task = ({ task: { id, title, state }, onArchiveTask, onTogglePinTas
       borderColor: 'gray.200',
     }}
     h={12}
-    bg="red"
+    bg="white"
     alignItems="center"
     _hover={{
       bgGradient: 'linear(to-b,  brand.100,  brand.50)',
