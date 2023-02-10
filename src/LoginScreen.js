@@ -32,7 +32,7 @@ const LoginForm = ({ onSubmit, ...props }) => (
         <Input focusBorderColor="brand.500" name="password" type="password" required />
       </FormControl>
       <Button type="submit" variant="submit" size="lg" fontSize="md">
-        Sign in to app
+        Sign in
       </Button>
     </Stack>
   </chakra.form>
