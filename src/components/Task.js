@@ -32,7 +32,7 @@ export const Task = ({ task: { id, title, state }, onArchiveTask, onTogglePinTas
         textDecoration={state === 'TASK_ARCHIVED' ? 'line-through' : 'none'}
         fontSize="med"
         isTruncated
-        value={title + ' oops'}
+        value={title}
         onChange={(e) => onEditTitle(e.target.value, id)}
       />
     </Box>
