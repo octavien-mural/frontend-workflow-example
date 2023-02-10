@@ -11,7 +11,7 @@ export const Task = ({ task: { id, title, state }, onArchiveTask, onTogglePinTas
       borderColor: 'gray.200',
     }}
     h={12}
-    bg="blue"
+    bg="white"
     alignItems="center"
     _hover={{
       bgGradient: 'linear(to-b,  brand.100,  brand.50)',
@@ -32,7 +32,7 @@ export const Task = ({ task: { id, title, state }, onArchiveTask, onTogglePinTas
         textDecoration={state === 'TASK_ARCHIVED' ? 'line-through' : 'none'}
         fontSize="med"
         isTruncated
-        value={title}
+        value={title + ' oops'}
         onChange={(e) => onEditTitle(e.target.value, id)}
       />
     </Box>
